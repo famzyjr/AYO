@@ -7,10 +7,9 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
-import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import { VscFolderLibrary } from "react-icons/vsc";
-import AY   from "../../assets/tech/AY.jpg";
+import AY from "../../assets/tech/AY.jpg";
 
 AOS.init({
   duration: 2000,
@@ -35,7 +34,7 @@ const about = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small> 3+ Years Working </small>
+              <small> 1+ Years Working </small>
             </article>
 
             <article className="about__card">
@@ -47,21 +46,20 @@ const about = () => {
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5> Projects </h5>
-              <small> 20+ Completed </small>
+              <small> 10+ Completed </small>
             </article>
           </div>
-            <p>
-              I'm a skilled software developer with experience in Javascript and
-              expertise in frameworks like React, Node.js and Express.js. I'm a
-              quick learner and collaborate closely with clients to create
-              efficient, scalable, user-friendly solutions that solve real-world
-              problems. I love being part of a solution driven tech community. I
-              love to teach others about web development and I've made a lot of
-              projects with multiple web technologies.
+          <p>
+            Hi! Ayomide is the name . I am a UI/UX designer. I am passionate
+            about the growing world of technology and I wish to be a part of it.
+            With my skills and knowledge in technology, I thrive in dynamic
+            environments, collaborating with cross-functional teams and
+            individuals with more experience than myself, I am eager to advance
+            in my field and deliver visually stunning and user-centric
+            interfaces .I’m excited to partner with you!
           </p>
 
           <div className="about__socials">
-        
             <a
               href="https://www.linkedin.com/in/ayomide-fashanu-833624262/"
               target="_blank"

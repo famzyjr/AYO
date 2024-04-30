@@ -2,7 +2,10 @@ import "aos/dist/aos.css";
 import "./experience.css";
 import AOS from "aos";
 import Figma from "../../assets/tech/figma.png";
-import   xd   from "../../assets/tech/xd.png";
+import Adobe_xd from "../../assets/tech/Adobe_xd.png";
+import Adobe_Illustrator_CC_icon from "../../assets/tech/Adobe_Illustrator_CC_icon.png";
+import  miro from "../../assets/tech/miro.png";
+
 // ..
 AOS.init({
   duration: 2000,
@@ -11,13 +14,22 @@ AOS.init({
 const skillData = [
  
   {
-    skill: "xd",
-    img: xd,
+    skill: "Adobe xd",
+    img: Adobe_xd,
   },
  
   {
     skill: "Figma",
     img: Figma,
+  },
+  {
+    skill: "Adobe I",
+    img: Adobe_Illustrator_CC_icon,
+  },
+  
+  {
+    skill: "Miro",
+    img: miro,
   },
   
 ]
@@ -26,26 +38,26 @@ const educationData = [
   {
     id: 1,
     cert: 'JSCE',
-    sch: "Al-Iman Group Of Schools, Oyo",
-    year: '2007 - 2012',
+    sch: "Federal Science and Technical college yaba",
+    year: '2017 - 2019',
   },
   {
     id: 2,
     cert: 'SSCE',
-    sch: "God' Blessing College, Oyo",
-    year: '2012 - 2018',
+    sch: " Federal Science and Technical college yaba",
+    year: '2020 - 2022',
   },
   {
     id: 3,
-    cert: 'Software Tech Certified',
-    sch: "NPOWER, Federal Republic Nigeria Empowerment",
-    year: '2020 - 2021',
+    cert: 'UI/UX DESIGN CERTIFIED',
+    sch: "Google Coursera certificate program ",
+    year: '2022 - 2023',
   },
   {
     id: 4,
-    cert: 'ND, Computer Science',
-    sch: "FCAH&PT Ibadan",
-    year: '2020 - 2022',
+    cert: ' Computer education',
+    sch: "TADEC ",
+    year: '2018 - 2019',
   },
 ]
 

@@ -2,8 +2,8 @@ import "aos/dist/aos.css";
 import "./contact.css";
 import AOS from "aos";
 import React from "react";
-import emailjs from "emailjs-com";
 import { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import { BsWhatsapp } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
@@ -15,15 +15,24 @@ AOS.init({
 
 
 const Contact = () => {
-    const form = useRef();
-  
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_i2mdb46', 'template_w9y1llc', form.current, 'cuHmTJVWYL4wlXr37')
+  const form = useRef()
+  const sendEmail = (e) => {
+   
 
-      e.target.reset()
-    };
+    emailjs
+      .sendForm('service_oidc5kk', 'template_y274j19', form.current, {
+        publicKey: 'nU0sC09wFflr-4Tk7',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      ); 
+      e.preventDefault();
+  };
   return (
     <section id="contact" data-aos="zoom-in-down">
       <h5>Get in Touch</h5>
@@ -35,8 +44,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>binarytechnig@gmail.com</h5>
-            <a href="mailto:binarytechnig@gmail.com" target="_blank">Send a message</a>
+            <h5>ayomidefashanu00@gmail.com</h5>
+            <a href="mailto:ayomidefashanu00@gmail.com" target="_blank">Send a message</a>
           </article>
 
           <article className="contact__option">

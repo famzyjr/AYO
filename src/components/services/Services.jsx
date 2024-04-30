@@ -3,10 +3,8 @@ import "./services.css";
 import AOS from "aos";
 import { CiMobile1 } from "react-icons/ci";
 import { FaConnectdevelop } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
 import { FaPencilRuler } from "react-icons/fa";
 import { MdDevicesOther } from "react-icons/md";
-import { MdGraphicEq } from "react-icons/md";
 
 // ..
 AOS.init({
@@ -16,20 +14,21 @@ AOS.init({
 const data = [
   {
     id: 1,
+    Icon: FaPencilRuler,
+    title: "UI/UX Design",
+    desc: "I am passionate about creating intuitive and visually appealing digital experiences for users",
+    color: "orange",
+    aos: "fade-left",
+  },
+  {
+    id: 2,
     Icon: FaConnectdevelop,
     title: "Web Design",
     desc: "I have a passsion for creating visually appealing and user-friendly websites that meet the needs of my clients",
     color: "red",
     aos: "fade-right",
   },
-  {
-    id: 2,
-    Icon: FaCode,
-    title: "Web Development",
-    desc: "I have experience creating and maintaining websites for both personal and professional projects",
-    color: "green",
-    aos: "fade-left",
-  },
+ 
   {
     id: 3,
     Icon: MdDevicesOther,
@@ -38,22 +37,7 @@ const data = [
     color: "blue",
     aos: "fade-right",
   },
-  {
-    id: 4,
-    Icon: FaPencilRuler,
-    title: "UI/UX Design",
-    desc: "I am passionate about creating intuitive and visually appealing digital experiences for users",
-    color: "orange",
-    aos: "fade-left",
-  },
-  {
-    id: 5,
-    Icon: MdGraphicEq,
-    title: "Graphics Design",
-    desc: "I am a graphics designer, skilled in creating visually stunning designs for a variety of media",
-    color: "purple",
-    aos: "fade-right",
-  },
+
   {
     id: 6,
     Icon: CiMobile1,
