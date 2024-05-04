@@ -13,7 +13,8 @@ const Header = () => {
 
           <div className="firstContainer">
             <h3>Hello👋  I'm</h3>
-            <h1>Fashanu Ayomide</h1>
+            <h1>Fashanu  Ayomide</h1>
+           
             <h5 className="text-light type">
             <Typewriter 
               loop
