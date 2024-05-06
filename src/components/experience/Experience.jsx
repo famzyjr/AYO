@@ -36,16 +36,10 @@ const skillData = [
 
 const educationData = [
   {
-    id: 1,
-    cert: 'JSCE',
-    sch: "Federal Science and Technical college yaba",
-    year: '2017 - 2019',
-  },
-  {
     id: 2,
-    cert: 'SSCE',
-    sch: " Federal Science and Technical college yaba",
-    year: '2020 - 2022',
+    cert: ' Computer education',
+    sch: "TADEC ",
+    year: '2018 - 2019',
   },
   {
     id: 3,
@@ -53,11 +47,13 @@ const educationData = [
     sch: "Google Coursera certificate program ",
     year: '2022 - 2023',
   },
+ 
+ 
   {
     id: 4,
-    cert: ' Computer education',
-    sch: "TADEC ",
-    year: '2018 - 2019',
+    cert: 'UI/UX DESIGN Accelerated course',
+    sch: "Uranus Academy",
+    year: '2022 - 2023',
   },
 ]
 

@@ -19,7 +19,7 @@ const data = [
     id: 1,
     img: q,
     title: "An art history mobile and web app",
-    behance: "",
+    behance: "https://www.behance.net/gallery/192508683/Art-History-Mobile-App-Website/modules/1088962475",
     desc: "An applicaton that offers users with the love of arts and culture free and easy access to a wide range of histories",
     demo: "#",
   },
@@ -28,16 +28,17 @@ const data = [
     id: 6,
     img: n,
     title: "An e-commerce mobile app",
-    behance: "",
+    behance: "https://www.behance.net/gallery/192507693/E-commerce-Appmobile-App/modules/1088956117",
     desc: "Mobile app for buying and selling between a wide variety of vendors",
     demo: "",
+    
   },
 
   {
     id: 1,
     img: r,
     title: "A cloth brand saless app",
-    behance: "",
+    behance: "https://www.behance.net/gallery/192504647/A-Cloth-brand-Sales-App/modules/1088936667",
     desc: "This a mobile app for an online cloth vendor that owns their brand brand",
     demo: "#",
   },

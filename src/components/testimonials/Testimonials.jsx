@@ -21,8 +21,8 @@ const data = [
   {
     id: 1,
     // avatar: ,
-    name: "NULL",
-    review: "Since having our website built by Binary Tech, we have seen a 200% increase in the number of online contact forms being filled out and returned to us. Binary and his team worked closely with us to provide a site that met all of the criteria that we were looking for. The end result was a website that is attractive, organised and effective. Thanks to Binary Tech for all your hard work and support."
+    name: "Mr Toyosi",
+    review: "Working with Ayomide was an absolute pleasure! Their keen eye for detail and dedication to creating an exceptional user experience truly shone throughout the entire project. From the initial concept phase to the final delivery, Ayomide demonstrated a deep understanding of our users' needs and preferences, resulting in a design that exceeded our expectations."
   },
  
 ]
@@ -45,7 +45,7 @@ const Testimonials = () => {
           return(
         <SwiperSlide className="testimonial" key={id}>
           <div className="client__avatar">
-            <img src={avatar} alt="Avatar One" />
+            {/* <img src={avatar} alt="Avatar One" /> */}
           </div>
             <h5 className='client__name'>{name}</h5>
             <div className="review">

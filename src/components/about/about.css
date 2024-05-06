@@ -6,6 +6,7 @@
 
 .about__me{
     width: 100%;
+    height: 280px;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
@@ -29,8 +30,7 @@
     overflow: hidden;
     /* transform: rotate(10deg); */
     height: 100%;
-     
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* .about__me-image:hover{
@@ -47,7 +47,7 @@
 }
 
 .about__card{
-    width: 30%;
+    width: 40%;
     background-color: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;

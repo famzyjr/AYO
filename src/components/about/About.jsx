@@ -9,7 +9,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 import { VscFolderLibrary } from "react-icons/vsc";
-import AY from "../../assets/tech/AY.jpg";
+import k from "../../assets/k.jpg"
 
 AOS.init({
   duration: 2000,
@@ -25,7 +25,7 @@ const about = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={AY} alt="Abdulrafiu Mubarak" />
+            <img src={k} alt="" />
           </div>
         </div>
 
@@ -50,13 +50,7 @@ const about = () => {
             </article>
           </div>
           <p>
-            Hi! Ayomide is the name . I am a UI/UX designer. I am passionate
-            about the growing world of technology and I wish to be a part of it.
-            With my skills and knowledge in technology, I thrive in dynamic
-            environments, collaborating with cross-functional teams and
-            individuals with more experience than myself, I am eager to advance
-            in my field and deliver visually stunning and user-centric
-            interfaces .I’m excited to partner with you!
+          Crafting seamless digital experiences, one pixel at a time. I'm Ayomide, a skilled  UI/UX designer dedicated to blending aesthetics with functionality to create intuitive designs that captivate and delight users. I am committed to staying updated on the latest industry trends and best practices, continuously seeking opportunities for professional growth and development.
           </p>
 
           <div className="about__socials">

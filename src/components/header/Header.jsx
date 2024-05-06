@@ -13,7 +13,7 @@ const Header = () => {
 
           <div className="firstContainer">
             <h3>Hello👋  I'm</h3>
-            <h1>Fashanu  Ayomide</h1>
+            <h1>Ayomide</h1>
            
             <h5 className="text-light type">
             <Typewriter 
@@ -23,7 +23,7 @@ const Header = () => {
               typeSpeed={120}
               deleteSpeed={50}
               delaySpeed={1000}
-              words={[ "UI/UX", "Mobile App Designer",  "Freelancer", "Web Designer", "Critical Thinker", "Good communication Skills"]}
+              words={[ "UI/UX Designer", "Mobile App Designer",  "Freelancer", "Web Designer", "Critical Thinker", "Creative Problem Solver","Effective Communicator"]}
               /></h5>
             <CTA />
             <HeaderSocials />
